@@ -115,3 +115,67 @@ body {
 }
 
 img { background: transparent; }
+
+.player-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.queue-container {
+    min-width: 300px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.queue-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.track-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.queue-cover {
+    width: 40px;
+    height: 40px;
+}
+
+.queue-track-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.queue-artist-name {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.vote-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.vote-button {
+    background: #44c767;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.vote-count {
+    font-weight: bold;
+}
